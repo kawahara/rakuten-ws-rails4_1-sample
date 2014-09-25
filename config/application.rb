@@ -8,6 +8,11 @@ Bundler.require(*Rails.groups)
 
 module WsRailsSample
   class Application < Rails::Application
+    RakutenWebService.configuration do |c|
+      c.application_id = "1025899060325418115"
+      c.affiliate_id = "0dd78f8a.26c4c8c0.0dd78f8b.0ee811d2"
+    end
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

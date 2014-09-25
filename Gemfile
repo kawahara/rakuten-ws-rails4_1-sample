@@ -40,4 +40,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'rakuten_web_service'
+
 ruby "2.1.2"
